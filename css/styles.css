@@ -828,6 +828,13 @@ ourWorks
 .ourWorks figcaption i {
     font-size: 35px
 }
+#aboutimage{
+    border-radius: 5%;
+}
+#logotext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
 .ourWorks figcaption p {
     margin-bottom: 0;
     text-transform: uppercase;

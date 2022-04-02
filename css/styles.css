@@ -95,7 +95,7 @@ html, body {
 	position:fixed;
 	width:70px;
 	height:70px;
-	bottom:120px;
+	bottom:130px;
 	right:20px;
 	background-color:#009688;
 	color:#FFF;
@@ -416,6 +416,21 @@ Buttons
     color: #fff;
     font-size: 16px;
 }
+
+.read-btn2, .download-btn {
+    display: inline-block;
+    padding: 14px 40px;
+    border: 2px solid rgb(25, 20, 95);
+    border-radius: 3px;
+    color: rgb(25, 20, 95);
+    font-size: 16px;
+}
+.read-btn2:hover, .download-btn:hover, .read-btn:focus, .download-btn:focus {
+    border-color: #73d0da;
+    color: #73d0da;
+    text-decoration: none;
+}
+
 .read-btn:hover, .download-btn:hover, .read-btn:focus, .download-btn:focus {
     border-color: #73d0da;
     color: #73d0da;
@@ -567,6 +582,19 @@ Hero
 header i {
     margin-left: 5px
 }
+.floatHome{
+    position:fixed;
+    width:70px;
+    height:70px;
+    bottom:220px;
+    right:20px;
+    background-color:#009688;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;
+  }
+  
 
 /* -------------------------------------------------------------------------------------------------
 Video
